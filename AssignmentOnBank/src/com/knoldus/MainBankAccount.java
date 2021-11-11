@@ -24,13 +24,7 @@ public class MainBankAccount {
 
     }
 
-    public static float getBalance(List<BankAccount> list, String accountNumber) {
-        Map<String, Double> map = new HashMap<>();
-        for (BankAccount book : list) {
-            map.put(book.getAccountNumber(), book.getBalance());
-        }
-       return  map.get(accountNumber).floatValue();
-    }
+    
 
 }
 
